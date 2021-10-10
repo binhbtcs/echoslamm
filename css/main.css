@@ -15,7 +15,7 @@ body{
 .head{
 	width: 100%;
 	height: 70px;
-	background-image: url("../images/Main-Pattern-BG.png");
+	background-image: url( "../images/Main-Pattern-BG.png");
 	position: fixed;
 }
 .logo{
@@ -36,15 +36,17 @@ body{
 	margin-left:50px;
 	font-family: art;
 	letter-spacing: 1px;
-	font-size: 105%
+	font-size: 110%
 }
 .menu1 ul{
 	list-style: none;
 }
 .menu1 ul li{
 	float: left;
-	padding: 10px;
+	padding: 9px;
+	
 	position: relative;
+	
 }
 .menu1 ul li:hover{
 	padding-bottom: 20px;
@@ -63,7 +65,7 @@ body{
 }
 .menu1 ul li ul li{
 	width: 200px;
-	background-image: url("../images/Main-Pattern-BG.png");
+	background-image: url( "../images/pattern-background.png");
 	left: -50px;
 	top: 23px;
 }
